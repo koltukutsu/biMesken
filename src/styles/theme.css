@@ -1,6 +1,6 @@
 [data-theme="light"] {
-  --color-primary: theme("colors.pink.500");
-  --color-secondary: theme("colors.indigo.500");
+  --color-primary: theme("colors.indigo.500");
+  --color-secondary: theme("colors.blue.500");
   --color-text: theme("colors.gray.900");
   --color-text-offset: theme("colors.gray.600");
   --color-background: theme("colors.gray.50");
@@ -17,3 +17,8 @@
   --color-background-offset: theme("colors.gray.800");
   --color-border: theme("colors.gray.50" / 10%);
 }
+/* #ecf1f0
+#183677
+#3555a4
+#5274d1
+#6f94ff */
