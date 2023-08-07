@@ -10,6 +10,7 @@ import Splash from "~/components/splash.astro";
 import Courses from "~/components/Courses.jsx";
 import ResponsiveCourseCard from "~/components/sub_components/ResponsiveCard.jsx";
 import "~/styles/index.css";
+import ContentSection from "~/components/content-section.astro";
 
 const { generator, site } = Astro;
 const image = new URL("social.jpg", site);
@@ -66,7 +67,8 @@ const description =
     <Header />
     <Splash />
     <div class="space-y-24 px-8 py-32">
-      <Courses />
+      <!-- <Courses /> -->
+      <ContentSection title="Kurslarımız" id="courses"></ContentSection> 
       <ResponsiveCourseCard client:load/>
       <Intro />
       <Features />
