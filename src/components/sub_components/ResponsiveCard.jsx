@@ -86,7 +86,7 @@
                 } rounded-lg focus:outline-none`}
               >
                 <img
-                  src={`/src/content/showcase/_coursesimages/icons/${index}.svg`}
+                  src={`images/icons/${index}.svg`}
                   alt={icon.label}
                   width="24"
                   height="24"
