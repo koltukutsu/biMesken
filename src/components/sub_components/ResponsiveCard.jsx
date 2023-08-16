@@ -7,37 +7,37 @@
     const iconsData = [
       {
         "label": "Yazılım Geliştirme.",
-        "image": "/src/content/showcase/courses_images/software-dev.png",
+        "image": "/src/content/showcase/_coursesimages/software-dev.png",
         "title": "Yazılım Geliştirme",
         "description": "Yazılım geliştirme konusunda geniş bir yelpazede kurslar sunuyoruz. Yazılım dünyasının en son trendlerini ve teknolojilerini öğrenmek için doğru yerdesiniz."
       },
       {
         "label": "Robotik ve Otomasyon",
-        "image": "/src/content/showcase/courses_images/robotic.png",
+        "image": "/src/content/showcase/_coursesimages/robotic.png",
         "title": "Robotik ve Otomasyon",
         "description": "Robotik ve otomasyon alanında uzmanlaşmak isteyenler için kapsamlı eğitimler sunuyoruz. Geleceğin teknolojilerini keşfedin."
       },
       {
         "label": "Dijital Tasarım ve Kullanıcı Deneyimi",
-        "image": "/src/content/showcase/courses_images/user-experience.png",
+        "image": "/src/content/showcase/_coursesimages/user-experience.png",
         "title": "Dijital Tasarım ve Kullanıcı Deneyimi",
         "description": "Kullanıcı deneyimi ve dijital tasarımın temel prensiplerini öğrenerek etkileyici ve kullanıcı dostu ürünler tasarlamayı öğrenin."
       },
       {
         "label": "3D Modelleme ve Prototip",
-        "image": "/src/content/showcase/courses_images/dark-hero.jpg",
+        "image": "/src/content/showcase/_coursesimages/dark-hero.jpg",
         "title": "3D Modelleme ve Prototip",
         "description": "Kreatif düşünme ve tasarlama süreçlerini 3D modelleme ve prototipleme ile birleştirerek hayal ettiğiniz ürünleri hayata geçirin."
       },
       {
         "label": "Uzay Bilimleri",
-        "image": "/src/content/showcase/courses_images/science.png",
+        "image": "/src/content/showcase/_coursesimages/science.png",
         "title": "Uzay Bilimleri",
         "description": "Evrenin derinliklerini keşfetmek ve uzay bilimlerindeki son gelişmeleri öğrenmek için sizi uzayın büyülü dünyasına davet ediyoruz."
       },
       {
         "label": "Biyoteknoloji ve Genetik Mühendisliği",
-        "image": "/src/content/showcase/courses_images/biotech.png",
+        "image": "/src/content/showcase/_coursesimages/biotech.png",
         "title": "Biyoteknoloji ve Genetik Mühendisliği",
         "description": "Biyoteknoloji ve genetik mühendisliği alanında temel prensipleri öğrenerek sağlık, tarım ve endüstri için çığır açan çözümler geliştirmeyi keşfedin."
       }
@@ -86,7 +86,7 @@
                 } rounded-lg focus:outline-none`}
               >
                 <img
-                  src={`/src/content/showcase/courses_images/icons/${index}.svg`}
+                  src={`/src/content/showcase/_coursesimages/icons/${index}.svg`}
                   alt={icon.label}
                   width="24"
                   height="24"
