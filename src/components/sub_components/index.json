@@ -1,0 +1,29 @@
+{
+    "about": {
+      "sections": [
+        {
+          "name": "Sefa BAYIR",
+          "position": "Bimesken Kurucusu",
+          "linkedin": "https://www.linkedin.com/in/sefabayir/",
+          "img": "/src/content/pictures/sefa.jpg",
+          "team": "Kurucu",
+          "alt": "Sefa BAYIR"
+        },
+        {
+            "name": "Yusuf GÖZÜBÜYÜK",
+            "position": "İleri Seviye Programlama",
+            "linkedin": "https://www.linkedin.com/in/yusuf-gözübüyük/",
+            "img": "/src/content/pictures/yusuf.png",
+            "team": "Proje",
+            "alt": "Yusuf GÖZÜBÜYÜK"
+          }
+          
+      ],
+      "socialMedia": {
+        "github": "https://github.com/issaafalkattan",
+        "twitter": "https://twitter.com/issaafkattan",
+        "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      }
+    }
+  }
+  

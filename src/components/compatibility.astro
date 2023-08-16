@@ -5,85 +5,44 @@ import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
-    title: "React",
+    title: "Semih",
     icon: "frameworks/react",
     url: "https://reactjs.org/",
   },
   {
-    title: "Preact",
+    title: "Sefa",
     icon: "frameworks/preact",
     url: "https://preactjs.com/",
   },
   {
-    title: "Svelte",
+    title: "Yusuf",
     icon: "frameworks/svelte",
     url: "https://svelte.dev/",
   },
   {
-    title: "Vue",
+    title: "Ali",
     icon: "frameworks/vue",
     url: "https://vuejs.org/",
   },
-  {
-    title: "Solid",
-    icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
-  },
-  {
-    title: "Lit",
-    icon: "frameworks/lit",
-    url: "https://lit.dev/",
-  },
+  
 ];
 
-const platforms: Array<CompatibilityItem> = [
-  {
-    title: "Netlify",
-    icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
-  },
-  {
-    title: "Vercel",
-    icon: "platforms/vercel",
-    url: "https://vercel.com/",
-  },
-  {
-    title: "Cloudflare",
-    icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
-  },
-  {
-    title: "Render",
-    icon: "platforms/render",
-    url: "https://render.com/",
-  },
-  {
-    title: "GitHub",
-    icon: "fa-brands:github",
-    url: "https://pages.github.com/",
-  },
-  {
-    title: "GitLab",
-    icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
-  },
-];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Eğitmenler" id="educators">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Alanında <span class="text-primary">uzman eğitmenler</span> ile birlikte{" "}
+    <span class="text-primary">gelişiminizi</span>
+    hızlandırın. <span class="text-primary">Tecrübelerden</span> faydalanın.
   </Fragment>
-  <CompatibilityList
+  <!-- <CompatibilityList
     items={frameworks}
-    title="Frameworks"
+    title="Eğitmenler"
     url="https://docs.astro.build/core-concepts/framework-components/"
-  />
-  <CompatibilityList
+  /> -->
+  <!-- <CompatibilityList
     items={platforms}
     title="Platforms"
     url="https://docs.astro.build/guides/deploy/"
-  />
+  /> -->
 </ContentSection>

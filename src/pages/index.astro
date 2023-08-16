@@ -1,14 +1,15 @@
 ---
 import "@fontsource-variable/inter";
-import Blog from "~/components/compatibility.astro";
+import CourseEducators from "~/components/compatibility.astro";
 import Features from "~/components/features.astro";
 import Footer from "~/components/footer.astro";
 import Header from "~/components/header.astro";
 import Intro from "~/components/intro.astro";
-import Educators from "~/components/showcase.astro";
+import Blog from "~/components/showcase.astro";
 import Splash from "~/components/splash.astro";
 import Courses from "~/components/Courses.jsx";
 import ResponsiveCourseCard from "~/components/sub_components/ResponsiveCard.jsx";
+import About from "~/components/sub_components/About";
 import "~/styles/index.css";
 import ContentSection from "~/components/content-section.astro";
 
@@ -23,10 +24,10 @@ const description =
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/logomark.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
 
-    <title>Astro Landing Page</title>
+    <title>bimesken Ana Sayfa</title>
     <meta name="description" content={description} />
 
     <!-- social media -->
@@ -68,12 +69,13 @@ const description =
     <Splash />
     <div class="space-y-24 px-8 py-32">
       <!-- <Courses /> -->
-      <ContentSection title="Kurslarımız" id="courses"></ContentSection> 
+      <ContentSection title="Eğitimler" id="courses"></ContentSection> 
       <ResponsiveCourseCard client:load/>
       <Intro />
       <Features />
+      <CourseEducators />
+      <About />
       <Blog />
-      <Educators />
     </div>
     <Footer />
   </body>

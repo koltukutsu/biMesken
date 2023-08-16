@@ -6,29 +6,41 @@
 
     const iconsData = [
       {
-        label: 'Robotik egitimleri falan filanla alakalidir.',
-        image: '/src/content/showcase/courses_images/classic-hero.jpg',
-        title: 'Robotik Egitimleri',
-        description: 'Description 1',
+        "label": "Yazılım Geliştirme.",
+        "image": "/src/content/showcase/courses_images/software-dev.png",
+        "title": "Yazılım Geliştirme",
+        "description": "Yazılım geliştirme konusunda geniş bir yelpazede kurslar sunuyoruz. Yazılım dünyasının en son trendlerini ve teknolojilerini öğrenmek için doğru yerdesiniz."
       },
       {
-        label: 'Que significa es la vida sin tu',
-        image: '/src/content/showcase/courses_images/dark-hero.jpg',
-        title: 'La Vida',
-        description: 'Description 2',
+        "label": "Robotik ve Otomasyon",
+        "image": "/src/content/showcase/courses_images/robotic.png",
+        "title": "Robotik ve Otomasyon",
+        "description": "Robotik ve otomasyon alanında uzmanlaşmak isteyenler için kapsamlı eğitimler sunuyoruz. Geleceğin teknolojilerini keşfedin."
       },
       {
-        label: 'Robotik egitimleri falan filanla alakalidir.',
-        image: '/src/content/showcase/courses_images/classic-hero.jpg',
-        title: 'Robotik Egitimleri',
-        description: 'Description 1',
+        "label": "Dijital Tasarım ve Kullanıcı Deneyimi",
+        "image": "/src/content/showcase/courses_images/user-experience.png",
+        "title": "Dijital Tasarım ve Kullanıcı Deneyimi",
+        "description": "Kullanıcı deneyimi ve dijital tasarımın temel prensiplerini öğrenerek etkileyici ve kullanıcı dostu ürünler tasarlamayı öğrenin."
       },
       {
-        label: 'Que significa es la vida sin tu',
-        image: '/src/content/showcase/courses_images/dark-hero.jpg',
-        title: 'La Vida',
-        description: 'Description 2',
+        "label": "3D Modelleme ve Prototip",
+        "image": "/src/content/showcase/courses_images/dark-hero.jpg",
+        "title": "3D Modelleme ve Prototip",
+        "description": "Kreatif düşünme ve tasarlama süreçlerini 3D modelleme ve prototipleme ile birleştirerek hayal ettiğiniz ürünleri hayata geçirin."
       },
+      {
+        "label": "Uzay Bilimleri",
+        "image": "/src/content/showcase/courses_images/science.png",
+        "title": "Uzay Bilimleri",
+        "description": "Evrenin derinliklerini keşfetmek ve uzay bilimlerindeki son gelişmeleri öğrenmek için sizi uzayın büyülü dünyasına davet ediyoruz."
+      },
+      {
+        "label": "Biyoteknoloji ve Genetik Mühendisliği",
+        "image": "/src/content/showcase/courses_images/biotech.png",
+        "title": "Biyoteknoloji ve Genetik Mühendisliği",
+        "description": "Biyoteknoloji ve genetik mühendisliği alanında temel prensipleri öğrenerek sağlık, tarım ve endüstri için çığır açan çözümler geliştirmeyi keşfedin."
+      }
       
       // Add more icon data as needed
     ];
@@ -41,25 +53,27 @@
       <div
         className="bg-white rounded-lg shadow-lg p-4 flex flex-col lg:flex-row mx-auto"
         style={{
-          maxWidth: '1200px', // Adjust the max width as needed
-          minHeight: '400px', // Set a minimum height
+          maxWidth: '900px', // Adjust the max width as needed
+          // minHeight: '400px', // Set a minimum height
           height: 'auto', // Let the content determine the height
         }}
       >
-        <div className="lg:w-1/2 flex flex-col justify-center">
-          <h2 className="text-3xl font-bold mb-4">
-            {iconsData[selectedIcon].title}
-          </h2>
-          <div className="lg:hidden mb-4">
-            <img
-              src={iconsData[selectedIcon].image}
-              alt={iconsData[selectedIcon].label}
-              className="rounded-lg h-64 object-cover w-full"
-            />
+        <div className="lg:w-1/2 flex flex-col justify-between">
+          <div className="flex flex-col justify-start">
+            <h2 className="text-primary text-3xl font-bold mb-4 ">
+              {iconsData[selectedIcon].title}
+            </h2>
+            <div className="lg:hidden mb-4">
+              <img
+                src={iconsData[selectedIcon].image}
+                alt={iconsData[selectedIcon].label}
+                className="rounded-lg h-64 object-cover w-full"
+              />
+            </div>
+            <p className="text-gray-600 mb-6">
+              {iconsData[selectedIcon].description}
+            </p>
           </div>
-          <p className="text-gray-600 mb-6">
-            {iconsData[selectedIcon].description}
-          </p>
           <div className="flex space-x-4">
             {iconsData.map((icon, index) => (
               <button
@@ -82,7 +96,7 @@
             ))}
           </div>
         </div>
-        <div className="lg:w-1/2 hidden lg:block">
+        <div className="lg:w-1/2 hidden lg:block" style={{ aspectRatio: '16 / 9' }}>
           <img
             src={iconsData[selectedIcon].image}
             alt={iconsData[selectedIcon].label}
@@ -90,7 +104,7 @@
           />
         </div>
       </div>
-    );
+    );    
   };
 
   export default ResponsiveCard;
