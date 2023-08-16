@@ -14,7 +14,7 @@ import "~/styles/index.css";
 import ContentSection from "~/components/content-section.astro";
 
 const { generator, site } = Astro;
-const image = new URL("first.png", site);
+const image = new URL("social.png", site);
 const description =
   "Bimesken ile 21. yüzyil yetkinliklerini kazanın. Teknolojiden uzak kalmayın!";
 ---
@@ -31,7 +31,7 @@ const description =
     <meta name="description" content={description} />
 
     <!-- social media -->
-    <meta property="og:title" content="Astro" />
+    <meta property="og:title" content="Bimesken" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
