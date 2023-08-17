@@ -55,7 +55,7 @@
         style={{
           maxWidth: '900px', // Adjust the max width as needed
           // minHeight: '400px', // Set a minimum height
-          height: 'auto', // Let the content determine the height
+          // height: '700px', // Let the content determine the height
         }}
       >
         <div className="lg:w-1/2 flex flex-col justify-between">

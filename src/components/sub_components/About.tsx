@@ -1,5 +1,5 @@
-// import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import config from './index.json';
 
@@ -27,7 +27,7 @@ function PersonCard({ name, position, photo, linkedin }: PersonCardProps) {
         >
           {' '}
           <div className="flex items-center mb-2">
-            {/* <FontAwesomeIcon icon={faLinkedin} className="text-linkedin mr-2" /> */}
+            <FontAwesomeIcon icon={faLinkedin} className="mr-2 h-4" />
 
             {name}
           </div>
