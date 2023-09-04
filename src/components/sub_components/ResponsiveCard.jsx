@@ -24,10 +24,16 @@
         "description": "Kullanıcı deneyimi ve dijital tasarımın temel prensiplerini öğrenerek etkileyici ve kullanıcı dostu ürünler tasarlamayı öğrenin."
       },
       {
-        "label": "3D Modelleme ve Prototip",
+        "label": "Prototip Geliştirme",
         "image": "images/courses/dark-hero.jpg",
-        "title": "3D Modelleme ve Prototip",
+        "title": "Prototip Geliştirme",
         "description": "Kreatif düşünme ve tasarlama süreçlerini 3D modelleme ve prototipleme ile birleştirerek hayal ettiğiniz ürünleri hayata geçirin."
+      },
+      {
+        "label": "Büyük Veri ve Yapay Zeka",
+        "image": "images/courses/data2.jpg",
+        "title": "Büyük Veri ve Yapay Zeka",
+        "description": "İnternetin ile ortaya çıkan Büyük Veriyi nasıl analiz edeceğinizi ve Yapay Zekayı nasıl oluşturabileceğinizi öğrenin."
       },
       {
         "label": "Uzay Bilimleri",
