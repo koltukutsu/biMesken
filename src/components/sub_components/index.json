@@ -1,37 +1,59 @@
 {
-    "about": {
-      "sections": [
-        {
-          "name": "Sefa BAYIR",
-          "position": "Bimesken Kurucusu",
-          "linkedin": "https://www.linkedin.com/in/sefabayir/",
-          "img": "images/sefa.jpg",
-          "team": "Kurucu",
-          "alt": "Sefa BAYIR"
-        },
-        {
-          "name": "Yaşar METİN",
-          "position": "Makine Mühendisi",
-          "linkedin": "https://www.linkedin.com/in/ya%C5%9Far-metin-a5b1a8226",
-          "img": "images/yasar.jpg",
-          "team": "Kurucu",
-          "alt": "Yasar Metin"
-        },
-        {
-            "name": "Yusuf GÖZÜBÜYÜK",
-            "position": "İleri Seviye Programlama",
-            "linkedin": "https://www.linkedin.com/in/yusuf-gözübüyük/",
-            "img": "images/yusuf.png",
-            "team": "Proje",
-            "alt": "Yusuf GÖZÜBÜYÜK"
-          }
-          
-      ],
-      "socialMedia": {
-        "github": "https://github.com/issaafalkattan",
-        "twitter": "https://twitter.com/issaafkattan",
-        "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+  "about": {
+    "sections": [
+      {
+        "name": "Sefa BAYIR",
+        "position": "Bimesken Kurucusu",
+        "linkedin": "https://www.linkedin.com/in/sefabayir/",
+        "img": "images/sefa.jpg",
+        "team": "Kurucu",
+        "alt": "Sefa BAYIR"
+      },
+      {
+        "name": "Kerim CİVELEK",
+        "position": "Sağlık Bilgi Sistemleri Uzmanı",
+        "linkedin": " https://www.linkedin.com/in/kerimcivelek",
+        "img": "images/kerim.jpg",
+        "team": "Proje",
+        "alt": "Kerim Civelek"
+      },
+      {
+        "name": "Recep ARVASİ",
+        "position": "Sağlık Bilgi Sistemleri Uzmanı",
+        "linkedin": "https://www.linkedin.com/in/receparvasi",
+        "img": "images/recep.jpg",
+        "team": "Proje",
+        "alt": "Recep Arvasi"
+      },
+      {
+        "name": "Muttalip ARVASI",
+        "position": "Fizyoterapist - Egzersiz Danışmanı",
+        "linkedin": "https://www.linkedin.com/in/abdulmuttalip-arvasi-162366161",
+        "img": "images/muttalip.jpg",
+        "team": "Proje",
+        "alt": "Muttalip Arvasi"
+      },
+      {
+        "name": "Yaşar METİN",
+        "position": "Makine Mühendisi",
+        "linkedin": "https://www.linkedin.com/in/ya%C5%9Far-metin-a5b1a8226",
+        "img": "images/yasar.jpg",
+        "team": "Kurucu",
+        "alt": "Yasar Metin"
+      },
+      {
+        "name": "Yusuf GÖZÜBÜYÜK",
+        "position": "İleri Seviye Programlama",
+        "linkedin": "https://www.linkedin.com/in/yusuf-gözübüyük/",
+        "img": "images/yusuf.png",
+        "team": "Proje",
+        "alt": "Yusuf GOZUBUYUK"
       }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
     }
   }
-  
+}
