@@ -41,6 +41,7 @@
         "team": "Kurucu",
         "alt": "Yasar Metin"
       },
+      
       {
         "name": "Yusuf GÖZÜBÜYÜK",
         "position": "İleri Seviye Programlama Uzmanı",
@@ -48,6 +49,22 @@
         "img": "images/yusuf.png",
         "team": "Proje",
         "alt": "Yusuf GOZUBUYUK"
+      },
+      {
+        "name": "Samet BAYRAK",
+        "position": "Grafik Tasarım Uzmanı",
+        "linkedin": "",
+        "img": "images/placeholder.jpeg",
+        "team": "Proje",
+        "alt": "Samet BAYRAK"
+      },
+      {
+        "name": "Celal YILMAZ",
+        "position": "Grafik Tasarım Uzmanı",
+        "linkedin": "",
+        "img": "images/placeholder.jpeg",
+        "team": "Proje",
+        "alt": "Celal YILMAZ"
       }
     ],
     "socialMedia": {
