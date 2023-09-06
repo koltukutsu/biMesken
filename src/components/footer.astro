@@ -4,11 +4,11 @@ import HeroImage from "~/components/hero-image.astro";
 import type { FooterLink } from "~/types";
 
 const links: Array<FooterLink> = [
-  // {
-  //   url: "https://astro.build/",
-  //   description: "Astro's official website",
-  //   icon: "mdi:home",
-  // },
+  {
+    url: "#astronaut",
+    description: "Astro's official website",
+    icon: "mdi:home",
+  },
   // {
   //   url: "https://github.com/mhyfritz/astro-landing-page",
   //   description: "View source on GitHub",
@@ -23,7 +23,8 @@ const links: Array<FooterLink> = [
     url: "https://tr.linkedin.com/company/bimesken",
     description: "Bimesken LinkedIn",
     icon: "fa-brands:linkedin",
-  },{
+  },
+  {
     url: "https://www.instagram.com/bimesken/",
     description: "Bimesken Instagram",
     icon: "fa-brands:instagram",
@@ -42,18 +43,37 @@ const links: Array<FooterLink> = [
   </div>
   <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-4">
     {
-      links.map((link) => (
-        <li>
-          <a
-            class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4"
-            target="_blank"
-            href={link.url}
-          >
-            <span class="sr-only">{link.description}</span>
-            <Icon class="h-full" name={link.icon} />
-          </a>
-        </li>
-      ))
+      links.map((link) => {
+        console.log(link.url)
+        console.log(link.url === "#astronaut")
+        console.log("\n")
+        return link.url === "#astronaut" ? (
+          <Fragment>
+            <li>
+              <a
+                class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4"
+                href={link.url}
+              >
+                <span class="sr-only">{link.description}</span>
+                <Icon class="h-full" name={link.icon} />
+              </a>
+            </li>
+          </Fragment>
+        ) : (
+          <Fragment>
+            <li>
+              <a
+                class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4"
+                target="_blank"
+                href={link.url}
+              >
+                <span class="sr-only">{link.description}</span>
+                <Icon class="h-full" name={link.icon} />
+              </a>
+            </li>
+          </Fragment>
+        );
+      })
     }
   </ul>
 </footer>
